@@ -1,0 +1,84 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  background: #a0a0a0;
+  height: 2px;
+  border: none;
+}
+
+.content {
+  padding: 20px 220px 20px 220px;
+  margin: 0 auto;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #f0f0f0;
+}
+
+.info {
+  padding: 0px 30px 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 15px;
+}
+
+.info__image {
+  max-height: 10em;
+  max-width: 9em;
+}
+
+.photo {
+  border-radius: 2px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.about {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.skills {
+  padding: 10px;
+  font-size: 17px;
+}
+
+h3 {
+  margin-left: -40px;
+}
+
+h5 {
+  margin-left: -40px;
+}
+
+.code {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.education {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.language {
+  padding: 10px;
+  font-size: 17px;
+}
