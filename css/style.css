@@ -39,6 +39,10 @@ main {
   font-size: 15px;
 }
 
+.info__contacts li{
+  list-style-type: none;
+}
+
 .info__image {
   max-height: 10em;
   max-width: 9em;
